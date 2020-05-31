@@ -10,8 +10,11 @@ In this course we will learn the basics of Kotlin programming for Android.
 - Variables and function in Kotlin
 - Basic activity demonstration
 
-## Lifecycle
+## Android Application Lifecycle
 ![Android Application Lifecycle](lifecycle.png)
+
+## Application Example
+![Screenshot](screenshot.png)
 
 
 ## Contributors
