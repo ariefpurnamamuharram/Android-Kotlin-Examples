@@ -1,24 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="vertical">
 
-    <LinearLayout
+    <!-- ConstraintLayout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:padding="24dp">
 
+        <!-- ImageView -->
         <ImageView
-            android:layout_width="240dp"
-            android:layout_height="240dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="24dp"
-            android:scaleType="fitXY"
+            android:id="@+id/img_hmbtn"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
             android:src="@drawable/ic_hmbtn_psone_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="ContentDescription" />
 
-    </LinearLayout>
+        <!-- TextView -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:text="@string/txt_hmbtn"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlueNatsume"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/img_hmbtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_hmbtn"
+            app:layout_constraintTop_toTopOf="@id/img_hmbtn" />
+
+        <!-- TextView -->
+        <TextView
+            android:id="@+id/tv_story"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/txt_story"
+            android:textColor="@color/colorBlueNatsume"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_hmbtn" />
+
+        <!-- TextView -->
+        <TextView
+            android:id="@+id/tv_story_of_hmbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/txt_story_of_hmbtn"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_story" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

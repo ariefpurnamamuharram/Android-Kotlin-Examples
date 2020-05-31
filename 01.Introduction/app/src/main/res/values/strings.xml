@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">Harvest Moon:\nBack To Nature</string>
+    <string name="app_name">Harvest Moon: Back To Nature</string>
+
+    <!-- Putt all of your text resource right here. -->
+    <string name="txt_hmbtn">Harvest Moon:\nBack To Nature</string>
     <string name="txt_start">Mulai Cari Tahu!</string>
+    <string name="txt_story">Cerita</string>
+    <string name="txt_story_of_hmbtn">Harvest Moon: Back to Nature adalah sebuah seri permainan video simulasi permainan yang dikembangkan oleh Victor Interactive Software. Ini merupakan game Harvest Moon pertama untuk konsol non-Nintendo. Karakter-karakter dari Harvest Moon 64 dibuat menjadi karakter-karakter permainan ini, walaupun dengan gaya hidup, kepribadian dan hubungan yang baru. Sebuah versi yang juga menampilkan karakter utama perempuan berjudul kemudian juga dirilis.\n\nHarvest Moon: Back to Nature adalah sebuah permainan video game yang berisi tentang simulasi perkebunan. Merupakan salah satu seri permainan video-game Harvest Moon, yang juga merupakan satu-satunya seri Harvest Moon untuk Playstation.\n\nPermainan ini kemudian dibuat ulang untuk konsol Game Boy Advance dengan nama Harvest Moon: Friends of Mineral Town dan Harvest Moon: More Friends of Mineral Town. Tahun 2005, Harvest Moon: Back to Nature digabungkan dengan versi wanitanya dan diberi judul Harvest Moon: Boy &amp; Girl untuk PlayStation Portable, walaupun sampul dan instruksinya menggambarkan sebuah permainan yang benar-benar baru. Pada tahun 2008, Marvelous Interactive merilis Harvest Moon: Back to Nature dan Bokujō Monogatari Harvest Moon for Girl untuk PlayStation 3 dan PlayStation Portable lewat jaringan PlayStation.</string>
 </resources>

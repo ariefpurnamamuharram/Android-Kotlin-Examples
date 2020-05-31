@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IntroductionActivity"
+            android:name=".introduction.IntroductionActivity"
             android:parentActivityName=".MainActivity" />
     </application>
 
