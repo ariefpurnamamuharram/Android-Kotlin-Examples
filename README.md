@@ -1,5 +1,6 @@
 # Android Kotlin Curriculum
 A step-by-step introduction to Android Kotlin programming.
+
 ![Kotlin](kotlin.png)
 
 ## Prerequisite
