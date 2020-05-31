@@ -8,7 +8,7 @@ In this course we will learn the basics of Kotlin programming for Android.
 - Basic layouts: LinearLayout, ScrollView, and ConstraintLayout
 - Basic components: TextView ImageView, and Button
 - Variables and function in Kotlin
-- Create activity
+- Basic activity demonstration
 
 ## Lifecycle
 ![Android Application Lifecycle](lifecycle.png)
