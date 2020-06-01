@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HMBTN</string>
+    <string name="txt_hmbtn">Harvest Moon: Back To Nature</string>
+    <string name="txt_characters">Characters</string>
+    <string name="txt_girls">Girls</string>
+    <string name="txt_hmbtn_characters">HMBTN Characters</string>
+    <string name="txt_hmbtn_girls">HMBTN Girls</string>
+</resources>
