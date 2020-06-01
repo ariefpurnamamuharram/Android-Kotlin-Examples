@@ -4,6 +4,7 @@ In this section we will learn the basics of ListView and RecyclerView in Android
 ## Core Competency
 - Adding Graddle dependency
 - ListView and RecyclerView
+- Data class
 - Picasso library
 
 ## Application Example
