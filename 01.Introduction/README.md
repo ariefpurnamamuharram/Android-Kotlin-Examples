@@ -4,6 +4,7 @@ In this course we will learn the basics of Kotlin programming for Android.
 ## Core Competency
 - Android project structures
 - Android naming conventions
+- Android refractoring
 - Android application lifecycle
 - Basic layouts: LinearLayout, ScrollView, and ConstraintLayout
 - Basic components: TextView ImageView, and Button
