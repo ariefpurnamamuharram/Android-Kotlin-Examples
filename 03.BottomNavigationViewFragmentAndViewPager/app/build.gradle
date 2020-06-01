@@ -31,6 +31,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'androidx.drawerlayout:drawerlayout:1.0.0' // DrawerLayout
     implementation 'androidx.viewpager2:viewpager2:1.0.0' // ViewPager
+    implementation 'com.google.android.material:material:1.1.0' // Material Design Library
     implementation 'com.squareup.picasso:picasso:2.71828' // Picasso
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

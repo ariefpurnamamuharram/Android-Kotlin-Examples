@@ -6,6 +6,7 @@ A step-by-step introduction to Android Kotlin programming.
 ## Roadmap
 1. Introduction
 2. ListView and RecyclerView
+3. BottomNavigationView, Fragment, and ViewPager
 
 ## Prerequisite
 1. Android Studio, 3.6 or above.

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HMBTN</string>
+
+    <string name="txt_hmbtn">Harvest Moon: Back To Nature</string>
+    <string name="txt_menu_home">Beranda</string>
+    <string name="txt_menu_girls">Girls</string>
+    <string name="txt_character_karen">Karen</string>
+    <string name="txt_character_ann">Ann</string>
+    <string name="txt_character_popuri">Popuri</string>
+    <string name="txt_character_elli">Elli</string>
+    <string name="txt_character_mary">Mary</string>
+</resources>

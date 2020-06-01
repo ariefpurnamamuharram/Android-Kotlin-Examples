@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/iv_hmbtn_character"
+        android:layout_width="wrap_content"
+        android:layout_height="360dp"
+        android:src="@drawable/ic_character_karen"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_character_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/txt_character_karen"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlueNatsume"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
