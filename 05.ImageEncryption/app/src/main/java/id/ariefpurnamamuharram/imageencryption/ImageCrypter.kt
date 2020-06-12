@@ -27,6 +27,7 @@ class ImageCrypter() {
     private var key: SecretKey? = null
 
     // 128-bit key.
+    // Define your key here.
     private var salt = "A8768CC5BEAA6093"
 
     init {
