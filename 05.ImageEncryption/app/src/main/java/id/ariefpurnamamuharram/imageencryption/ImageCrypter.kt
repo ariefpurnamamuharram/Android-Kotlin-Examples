@@ -6,7 +6,6 @@ import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.security.NoSuchAlgorithmException
 import javax.crypto.Cipher
-import javax.crypto.CipherInputStream
 import javax.crypto.CipherOutputStream
 import javax.crypto.SecretKey
 import javax.crypto.spec.SecretKeySpec
@@ -74,20 +73,15 @@ class ImageCrypter() {
     private fun decryptImage(originalFilePath: File?, destinationFilePath: File?) {
         try {
             val fis = FileInputStream(originalFilePath.toString())
-
             val aes = Cipher.getInstance(ALGORITHM)
             aes.init(Cipher.DECRYPT_MODE, key)
-
             val fs = FileOutputStream(File(destinationFilePath.toString()))
             val out = CipherOutputStream(fs, aes)
-
             out.write(fis.readBytes())
             out.flush()
             out.close()
-
         } catch (e: NoSuchAlgorithmException) {
             e.printStackTrace()
         }
-
     }
 }
