@@ -12,5 +12,9 @@ class MainActivity : AppCompatActivity() {
         btnRxJava.setOnClickListener {
             RxJavaBasicDialogFragment.newInstance().show(supportFragmentManager, "RxJava")
         }
+
+        btnRxKotlin.setOnClickListener {
+            RxKotlinBasicDialogFragment.newInstance().show(supportFragmentManager, "RxKotlin")
+        }
     }
 }
