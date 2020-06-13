@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.biometric.BiometricManager
 import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat
+import kotlinx.android.synthetic.main.activity_authenticate.*
 import java.util.concurrent.Executor
 
 class AuthenticateActivity : AppCompatActivity() {
@@ -29,6 +30,7 @@ class AuthenticateActivity : AppCompatActivity() {
                 override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult) {
                     super.onAuthenticationSucceeded(result)
                     Log.i("Success", "Authentication succeeded!!")
+                    onAuthenticate()
                     Toast.makeText(
                         applicationContext,
                         "Authentication succeeded!",
@@ -39,7 +41,6 @@ class AuthenticateActivity : AppCompatActivity() {
                 override fun onAuthenticationFailed() {
                     super.onAuthenticationFailed()
                     Log.e("Failed", "Authentication failed")
-                    finish()
                 }
             })
 
@@ -62,6 +63,10 @@ class AuthenticateActivity : AppCompatActivity() {
         } else {
             finish()
         }
+    }
+
+    private fun onAuthenticate() {
+        tv_success.text = getString(R.string.txt_authenticate)
     }
 
     // Verify biometric existence.
