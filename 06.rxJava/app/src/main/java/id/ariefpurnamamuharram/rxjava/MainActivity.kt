@@ -20,5 +20,10 @@ class MainActivity : AppCompatActivity() {
         btnOperators.setOnClickListener {
             OperatorDialogFragment.newInstance().show(supportFragmentManager, "Operators")
         }
+
+        btnCompositeDisposable.setOnClickListener {
+            CompositeDisposableDialogFragment.newInstance()
+                .show(supportFragmentManager, "CompositeDisposable")
+        }
     }
 }
