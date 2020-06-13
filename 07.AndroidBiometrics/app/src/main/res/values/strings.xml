@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android Biometrics</string>
+    <string name="txt_authenticate">You are authenticate!</string>
+    <string name="txt_get_me_in">Get Me In!</string>
+</resources>

@@ -10,6 +10,7 @@ A step-by-step introduction to Android Kotlin programming.
 4. CameraX
 5. AES encryption
 6. ReactiveX
+7. Android Biometric
 
 ## Prerequisite
 1. Android Studio, 3.6 or above.
