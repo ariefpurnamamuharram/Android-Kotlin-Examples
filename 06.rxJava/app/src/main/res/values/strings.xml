@@ -4,5 +4,4 @@
     <string name="txt_rx_kotlin">RxKotlin</string>
     <string name="txt_operators">Operators</string>
     <string name="txt_composite_disposable">Composite Dispossable</string>
-    <string name="txt_custom_dialog">Custom Dialog</string>
 </resources>
