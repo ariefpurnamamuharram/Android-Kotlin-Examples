@@ -1,5 +1,5 @@
-# Android Kotlin Curriculum
-A step-by-step introduction to Android Kotlin programming.
+# Android Kotlin Examples
+Android programming examples using Kotlin.
 
 ![Kotlin](kotlin.png)
 
