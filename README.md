@@ -3,7 +3,7 @@ Android programming examples using Kotlin.
 
 ![Kotlin](kotlin.png)
 
-## Roadmap
+## Example Projects
 1. Introduction
 2. ListView and RecyclerView
 3. BottomNavigationView, Fragment, and ViewPager
@@ -14,7 +14,7 @@ Android programming examples using Kotlin.
 
 ## Prerequisite
 1. Android Studio, 3.6 or above.
-2. Android SDK, recommended min SDK 21.
+2. Android SDK, min SDK 21.
 
 ## Contributors
 - Arief Purnama Muharram (ariefpurnamamuharram@gmail.com)
